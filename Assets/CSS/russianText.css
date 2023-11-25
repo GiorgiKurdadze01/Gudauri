@@ -1,0 +1,9 @@
+.russian-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.russian-text span{
+    font-size: 22px;
+    color: red;
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Proxima-nova";
+    src: url(/Assets/Fonts/Proxima\ Nova\ Semibold.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Proxima-nova";
+}
