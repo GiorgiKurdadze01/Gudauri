@@ -1,0 +1,73 @@
+.container {
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 50px;
+    margin-left: 70px;
+    margin-top: 60px;
+    color: blue;
+    font-weight: bold;
+}
+
+.mainInfo {
+    margin-right: 100px;
+    margin-left: 70px;
+    margin-top: 80px;
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.mainInfo p {
+    /* text-size-adjust: 305px; */
+    font-size: 23px;
+    margin-right: 40px;
+    color: blue;
+}
+
+
+/* NEWS CARD CSS */
+
+
+.newsContainer {
+    width: 100%;
+    background-color: darkblue;
+}
+
+.newsContainer h1 {
+    color: white;
+}
+
+.newsCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsCard {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 170px;
+    margin-left: 151px;
+    margin-bottom: 50px;
+}
+
+.newsImg {
+    background-color: lightblue;
+    padding: 100px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsText {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

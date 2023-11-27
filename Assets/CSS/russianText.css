@@ -1,9 +1,10 @@
-.russian-text{
+.russian-txt{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-.russian-text span{
+.russian-txt span{
     font-size: 22px;
     color: red;
 }

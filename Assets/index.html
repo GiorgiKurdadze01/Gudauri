@@ -7,55 +7,196 @@
     <link rel="stylesheet" href="/Assets/CSS/general.css">
     <link rel="stylesheet" href="/Assets/CSS/header.css">
     <link rel="stylesheet" href="/Assets/CSS/russianText.css">
+    <link rel="stylesheet" href="/Assets/CSS/navClicked.css">
+    <link rel="stylesheet" href="/Assets/CSS/indexMain.css">
+    <script src="https://kit.fontawesome.com/b6633c1c54.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
+    <div class="russian-txt">
+        <span>MORE THAN 20% OF GEORGIA IS OCCUPIED BY RUZZIA! ABKHAZETI & SAMACHABLO IS GEORGIA!</span>
+    </div>
     <header>
-        <div class="russian-text">
-            <span>MORE THAN 20% OF GEORGIA IS OCCUPIED BY RUZZIA! ABKHAZETI & SAMACHABLO IS GEORGIA!</span>
-        </div>
-        <div>
-            <a href="/Assets/index.html"><img class="web-logo" src="" alt=""></a>
-            <div class="nav-container">
-                <ul>
-                    <a href="">
-                        <li>THE REGION</li>
-                    </a>
-                    <a href="">
-                        <li>COME & STAY</li>
-                    </a>
-                    <a href="">
-                        <li>SKI - BOARD</li>
-                    </a>
-                    <a href="">
-                        <li>LOCAL LIFE & SERVICES</li>
-                    </a>
+        <div class="image">
+            <nav class="nav-bar">
+                <a class="site-main-logo" href="/Assets/index.html"><img class="site-main-logo" src="/Assets/Icons/G-Icon.png" alt=""></a>
+                <p onclick="openRegion()">THE REGION</p>
+                <p onclick="openComeAndStay()">COME & STAY</p>
+                <p onclick="openskiBoard()">SKI - BOARD</p>
+                <p onclick="openlocalLife()">LOCAL LIFE & SERVICES</p>
+            </nav>
+            <div class="date-name-container">
+                <div class="start-date">
+                    <p>Since 1988</p>
+                </div>
+                <div class="city-name">
+                    <h1>Gudauri</h1>
+                </div>
+            </div>
+            <div class="nav-small-container">
+                <ul class="nav-small-icons ">
+                    <li>
+                        <a href=""><i class="fa-regular fa-snowflake  fa-2x small-icon"></i> <span>Weather</span></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-camera fa-2x small-icon"></i><span>Web-Camera</span></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-regular fa-calendar fa-2x small-icon"></i><span>Calendar</span></a>
+                    </li>
+                    <li>
+                        <a href=""> <i class="fa-solid fa-magnifying-glass fa-2x small-icon"></i><span>Search</span></a>
+                    </li>
                 </ul>
             </div>
-            <!-- When personal kclick on the region this dive should be seenable by user -->
-            <div class="region-js">
-                <a href="">
-                    <p>History</p>
-                </a>
-                <a href="">
-                    <p>Geography</p>
-                </a>
-                <a href="">
-                    <p>Health</p>
-                </a>
-                <a href="">
-                    <p>Blogs</p>
-                </a>
-                <a href="">
-                    <p>Vlogs</p>
-                </a>
-                <a href="">
-                    <p>Photo Gallery</p>
-                </a>
+            <div class="clickedNav">
+                <div class="Region">
+                    <a href="">
+                        <p>History</p>
+                    </a>
+                    <a href="">
+                        <p>Geography</p>
+                    </a>
+                    <a href="">
+                        <p>Health</p>
+                    </a>
+                    <a href="">
+                        <p>Blogs</p>
+                    </a>
+                    <a href="">
+                        <p>Vlogs</p>
+                    </a>
+                    <a href="">
+                        <p>Photo Gallery</p>
+                    </a>
+                </div>
+                <div class="comeAndStay">
+                    <a href="">
+                        <p>Getting there & Getting around</p>
+                    </a>
+                    <a href="">
+                        <p>From Tbilisi To Gudauri</p>
+                    </a>
+                    <a href="">
+                        <p>Taxis in Gudauriz</p>
+                    </a>
+                    <a href="">
+                        <p>Transfer</p>
+                    </a>
+                    <a href="">
+                        <p>Tour offers aroud the area</p>
+                    </a>
+                </div>
+                <div class="skiBoard">
+                    <div class="skiBoard-left">
+                        <a href="">
+                            <p>Ski Passes - Full info</p>
+                        </a>
+                        <a href="">
+                            <p>Ski Rentals</p>
+                        </a>
+                        <a href="">
+                            <p>Ski Fitness</p>
+                        </a>
+                        <a href="">
+                            <p>Ski Equipment</p>
+                        </a>
+                        <a href="">
+                            <p>Private Ski Sessions</p>
+                        </a>
+                    </div>
+                    <div class="skiBoard-right">
+                        <h1>Ski Area Guide</h1>
+                        <a href="">
+                            <p>Ski slope's guide</p>
+                        </a>
+                        <a href="">
+                            <p>Ski lifts</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="localLifeServices">
+                    <div class="local-left">
+                        <h1>Getting there & Getting around</h1>
+                        <a href=""><span>From Tbilisi To Gudauri</span></a>
+                        <a href=""><span>Taxis in Gudauri</span></a>
+                        <a href=""><span>Transfer</span></a>
+                        <a href=""><span>Tour offers aroud the area</span></a>
+                    </div>
+                    <div class="local-right">
+                        <span>Events</span>
+                        <span>Swimming & Wellness</span>
+                        <span>ATM - Cash Dispencers</span>
+                        <span>Shops</span>
+                        <span>Health</span>
+                        <span>Other activities</span>
+                    </div>
+                </div>
+                <div class="close-icon">
+                    <p onclick="closeNav()" class="js-close" href=""><i class="fa-solid fa-xmark fa-3x close "></i> </p>
+                </div>
+
             </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <h1>Welcome to Gudauri</h1>
+            <div class="mainInfo">
+                <div class="">
+                    <p>Welcome to Gudauri, where breathtaking mountain vistas and adventure await! Embrace the beauty of
+                        the
+                        Caucasus Mountains and the warmth of our hospitality as you embark on a memorable journey in
+                        this
+                        enchanting destination.</p>
+                </div>
+                <div>
+                    <p>on a memorable journey in this enchanting destination. When you visit Gudauri, a picturesque
+                        mountain
+                        resort in Georgia, you can expect a variety of experiences and activities that cater to both
+                        nature
+                        enthusiasts and adventure seekers.</p>
+                </div>
+                <div>
+                    <p>When you visit Gudauri you can look forward to: spectacular scenery, adventure winter sports,
+                        thermal
+                        springs, cultural exploration, local festivals and relaxation.</p>
+                </div>
+
+            </div>
+            <div class="newsContainer">
+                <h1>Gudauri News</h1>
+                <div class="newsCardContainer">
+                    <div class="newsCard">
+                        <div class="newsImg">PHOTO</div>
+                        <div class="newsText">Text</div>
+                    </div>
+                    <div class="newsCard">
+                        <div class="newsImg">PHOTO</div>
+                        <div class="newsText">Text</div>
+                    </div>
+                    <div class="newsCard">
+                        <div class="newsImg">PHOTO</div>
+                        <div class="newsText">Text</div>
+                    </div>
+                    <div class="newsCard">
+                        <div class="newsImg">PHOTO</div>
+                        <div class="newsText">Text</div>
+                    </div>
+                    <div class="newsCard">
+                        <div class="newsImg">PHOTO</div>
+                        <div class="newsText">Text</div>
+                    </div>
+                    <div class="newsCard">
+                        <div class="newsImg">PHOTO</div>
+                        <div class="newsText">Text</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/Assets/Js/clickNav.js"></script>
 </body>
 
 </html>

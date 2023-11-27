@@ -1,0 +1,91 @@
+.clickedNav {
+    position: absolute;
+    top: 0;
+    background-color: darkblue;
+    width: 100%;
+    height: 80vh;
+    display: none;
+}
+
+.Region,
+.comeAndStay {
+    margin-top: 200px;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    display: none;
+
+}
+
+.Region p,
+.comeAndStay p,
+.skiBoard p {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+
+.skiBoard {
+    width: 60%;
+    margin-top: 200px;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    display: none;
+}
+
+.skiBoard h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.skiBoard-right p {
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+
+.localLifeServices {
+    width: 60%;
+    margin-top: 200px;
+    margin-left: 190px;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    display: none;
+}
+
+.local-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.localLifeServices a,
+.localLifeServices span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.local-left span{
+    font-size: 20px;
+    cursor: pointer;
+}
+.local-right{
+    font-size: 30px;
+}
+
+.close-icon {
+    display: none;
+    position: absolute;
+    right: 200px;
+    top: 120px;
+    color: white;
+    cursor: pointer;
+}

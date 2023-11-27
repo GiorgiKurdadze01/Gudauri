@@ -6,6 +6,23 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     font-family: "Proxima-nova";
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Proxima Nova Cn Lt";
+    margin-top: 5px;
+}
+
+a {
+    all: unset;
+}
+
+ul,
+li {
+    all: unset;
 }
