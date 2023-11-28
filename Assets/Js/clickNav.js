@@ -5,12 +5,14 @@ const skiBoardEl = document.querySelector('.skiBoard');
 const localLifeEL = document.querySelector('.localLifeServices')
 const closeEl = document.querySelector('.js-close');
 const closeDivEl = document.querySelector('.close-icon');
+const navTextColorEl = document.querySelector('.nav-bar-for-all')
 
 function openRegion() {
     mainDivEl.style.display = 'block'
     regionEl.style.display = 'block'
     closeDivEl.style.display = 'block'
     regionEl.classList.add('openRegion')
+    navTextColorEl.style.color = 'white';
     closeAllNav();
 }
 
@@ -19,6 +21,7 @@ function openComeAndStay() {
     comeAndStayEl.style.display = 'block'
     closeDivEl.style.display = 'block'
     comeAndStayEl.classList.add('openComeAndStay')
+    navTextColorEl.style.color = 'white';
     closeAllNav();
 }
 
@@ -27,6 +30,7 @@ function openskiBoard() {
     skiBoardEl.style.display = 'flex'
     closeDivEl.style.display = 'inline'
     skiBoardEl.classList.add('openSkiBoard')
+    navTextColorEl.style.color = 'white';
     closeAllNav();
 }
 
@@ -35,11 +39,13 @@ function openlocalLife() {
     localLifeEL.style.display = 'flex'
     closeDivEl.style.display = 'inline'
     localLifeEL.classList.add('openLocalLife')
+    navTextColorEl.style.color = 'white';
     closeAllNav();
 }
 
 function closeNav() {
     mainDivEl.style.display = 'none'
+    navTextColorEl.style.color = 'blue';
 }
 
 function closeAllNav() {

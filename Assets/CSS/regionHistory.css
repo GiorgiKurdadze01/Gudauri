@@ -1,0 +1,48 @@
+.regionContainer {
+    width: 100%;
+}
+
+.history-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.history-container span {
+    font-size: 22px;
+    color: #043974;
+}
+
+.small-width-history {
+    margin-top: 70px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.small-width-history h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+    color: #043974;
+    font-weight: bold;
+}
+.small-width-history h3{
+    margin-top: 5px;
+    font-size: 25px;
+    color: #043974;
+}
+
+.ad-container-region {
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.ad-container-region img{
+    width: 500px;
+    height: 300px;
+}
+
+.full-width-history{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
