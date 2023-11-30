@@ -1,0 +1,32 @@
+.geography-container {
+    width: 100%;
+
+}
+
+.geography-main-content {
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.geography-main-content h1 {
+    margin-bottom: 70px;
+    font-size: 60px;
+    color: #043974;
+}
+
+.geography-main-content span {
+    font-size: 22px;
+    color: #043974;
+}
+
+.ad-container-geography {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.ad-container-geography img {
+    width: 85%;
+    height: 400px;
+    object-fit:cover;
+}

@@ -1,0 +1,32 @@
+.health-container {
+    width: 100%;
+
+}
+
+.health-main-content {
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.health-main-content h1 {
+    margin-bottom: 70px;
+    font-size: 60px;
+    color: #043974;
+}
+
+.health-main-content span {
+    font-size: 22px;
+    color: #043974;
+}
+
+.ad-container-health {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.ad-container-health img {
+    width: 85%;
+    height: 400px;
+    object-fit:cover;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/header.css">
+    <link rel="stylesheet" href="/Assets/CSS/navClicked.css">
+    <link rel="stylesheet" href="/Assets/CSS/general.css">
+    <link rel="stylesheet" href="/Assets/CSS/regionHealth.css">
+    <link rel="stylesheet" href="/Assets/CSS/regionHealth.css">
+    <script src="https://kit.fontawesome.com/b6633c1c54.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar-for-all">
+            <a class="site-main-logo" href="/Assets/index.html"><img class="site-main-logo"
+                    src="/Assets/Icons/G-Icon.png" alt=""></a>
+            <p onclick="openRegion()">THE REGION</p>
+            <p onclick="openComeAndStay()">COME & STAY</p>
+            <p onclick="openskiBoard()">SKI - BOARD</p>
+            <p onclick="openlocalLife()">LOCAL LIFE & SERVICES</p>
+        </nav>
+        <div class="nav-small-container">
+            <ul class="nav-small-icons ">
+                <li>
+                    <a href=""><i class="fa-regular fa-snowflake  fa-2x small-icon"></i> <span>Weather</span></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-camera fa-2x small-icon"></i><span>Web-Camera</span></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-regular fa-calendar fa-2x small-icon"></i><span>Calendar</span></a>
+                </li>
+                <li>
+                    <a href=""> <i class="fa-solid fa-magnifying-glass fa-2x small-icon"></i><span>Search</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="clickedNav">
+            <div class="Region">
+                <a href="/Assets/region.html">
+                    <p>History</p>
+                </a>
+                <a href="/Assets/geography.html">
+                    <p>Geography</p>
+                </a>
+                <a href="/Assets/health.html">
+                    <p>Health</p>
+                </a>
+                <a href="">
+                    <p>Blogs</p>
+                </a>
+                <a href="">
+                    <p>Vlogs</p>
+                </a>
+                <a href="">
+                    <p>Photo Gallery</p>
+                </a>
+            </div>
+            <div class="comeAndStay">
+                <a href="">
+                    <p>Getting there & Getting around</p>
+                </a>
+                <a href="">
+                    <p>From Tbilisi To Gudauri</p>
+                </a>
+                <a href="">
+                    <p>Taxis in Gudauriz</p>
+                </a>
+                <a href="">
+                    <p>Transfer</p>
+                </a>
+                <a href="">
+                    <p>Tour offers aroud the area</p>
+                </a>
+            </div>
+            <div class="skiBoard">
+                <div class="skiBoard-left">
+                    <a href="">
+                        <p>Ski Passes - Full info</p>
+                    </a>
+                    <a href="">
+                        <p>Ski Rentals</p>
+                    </a>
+                    <a href="">
+                        <p>Ski Fitness</p>
+                    </a>
+                    <a href="">
+                        <p>Ski Equipment</p>
+                    </a>
+                    <a href="">
+                        <p>Private Ski Sessions</p>
+                    </a>
+                </div>
+                <div class="skiBoard-right">
+                    <h1>Ski Area Guide</h1>
+                    <a href="">
+                        <p>Ski slope's guide</p>
+                    </a>
+                    <a href="">
+                        <p>Ski lifts</p>
+                    </a>
+                </div>
+            </div>
+            <div class="localLifeServices">
+                <div class="local-left">
+                    <h1>Getting there & Getting around</h1>
+                    <a href=""><span>From Tbilisi To Gudauri</span></a>
+                    <a href=""><span>Taxis in Gudauri</span></a>
+                    <a href=""><span>Transfer</span></a>
+                    <a href=""><span>Tour offers aroud the area</span></a>
+                </div>
+                <div class="local-right">
+                    <span>Events</span>
+                    <span>Swimming & Wellness</span>
+                    <span>ATM - Cash Dispencers</span>
+                    <span>Shops</span>
+                    <span>Health</span>
+                    <span>Other activities</span>
+                </div>
+            </div>
+            <div class="close-icon">
+                <p onclick="closeNav()" class="js-close" href=""><i class="fa-solid fa-xmark fa-3x close "></i> </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="health-container">
+            <div class="health-main-content">
+                <h1>Health</h1>
+                <span>At a high altitude, the atmospheric pressure decreases and the oxygen saturation of the air
+                    decreases. The faster a person climbs, the more likely the air is to cause health problems.</span>
+                <br>
+                <br>
+                <span>In general, altitude sickness manifests itself from an altitude of 2400 meters above sea level. To
+                    compensate for the lack of oxygen, breathing becomes more frequent, the heart beats faster, but the
+                    concentration of oxygen in the blood still does not reach the level at sea level. Therefore, there
+                    is a risk of developing altitude sickness in the study area, whose height is 2100-2500 meters above
+                    sea level. However, if a number of recommendations are taken into account, the risk decreases
+                    dramatically.</span>
+                <br>
+                <br>
+                <span>For acclimatization, i.e. to get used to low atmospheric pressure and lack of oxygen, a person
+                    needs a slow, gradual ascent to altitude. Therefore, altitude sickness is mostly manifested by
+                    further symptoms.</span>
+                <br>
+                <br>
+                <span>The first is a headache that does not respond to painkillers. Sometimes it is accompanied by
+                    weakness, dizziness, sleep disturbance, loss of appetite, nausea, vomiting, sometimes - visual
+                    hallucinations.</span>
+                <br>
+                <br>
+                <span>In any form of altitude sickness, the first requirement is to stop climbing until the complaints
+                    have passed. If symptoms are severe, swelling of the brain or lungs is likely, or vision is blurred,
+                    the person should return to the plains as soon as possible.</span>
+                <br>
+                <br>
+                <span>With a slow, gradual change in altitude, the body adapts to the oxygen-poor environment and the
+                    likelihood of developing altitude sickness decreases.</span>
+                <br>
+                <br>
+                <span>In order to avoid similar problems when climbing to a height in Gudauri, tourists need to be
+                    informed about the risks, and in the presence of a problem, it is necessary to seek emergency
+                    medical assistance, which cannot be provided directly in the territory of Gudauri.</span>
+                <br>
+                <br>
+            </div>
+            <div class="ad-container-health">
+                <img src="/Assets/Picture/ad-2.webp" alt="">
+            </div>
+        </div>
+    </main>
+    <script src="/Assets/Js/clickNav.js"></script>
+</body>
+
+</html>
