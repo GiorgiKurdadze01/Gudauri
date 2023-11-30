@@ -1,0 +1,59 @@
+.comeTaxi,
+.transfer {
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+.comeTaxi h1,
+.transfer h1 {
+    color: #043974;
+    font-size: 60px;
+}
+
+.comeTaxi span,
+.transfer span {
+    color: #043974;
+    font-size: 22px;
+}
+
+.comeTaxiContent,
+.transferContent {
+    margin-top: 70px;
+}
+
+.comeTaxiCard,
+.transferTaxiCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.comeTaxiImg,
+.transferTaxiImg {
+    margin-right: 100px;
+}
+
+.comeTaxiImg img,
+.transferTaxiCard img {
+    width: 486px;
+    height: 222px;
+    object-fit: cover;
+}
+
+.comeTaxiInfo,
+.transferTaxiInfo {
+    width: 100%;
+    height: 180px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    background-color: #043974;
+}
+
+.comeTaxiInfo span,
+.transferTaxiInfo span {
+    color: white;
+    margin-bottom: 40px;
+}

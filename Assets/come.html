@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/header.css">
+    <link rel="stylesheet" href="/Assets/CSS/navClicked.css">
+    <link rel="stylesheet" href="/Assets/CSS/general.css">
+    <link rel="stylesheet" href="/Assets/CSS/come.css">
+    <link rel="stylesheet" href="/Assets/CSS/comeTaxiCard.css">
+    <script src="https://kit.fontawesome.com/b6633c1c54.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar-for-all">
+            <a class="site-main-logo" href="/Assets/index.html"><img class="site-main-logo"
+                    src="/Assets/Icons/G-Icon.png" alt=""></a>
+            <p onclick="openRegion()">THE REGION</p>
+            <p onclick="openComeAndStay()">COME</p>
+            <p onclick="openskiBoard()">SKI - BOARD</p>
+            <p onclick="openlocalLife()">LOCAL LIFE & SERVICES</p>
+        </nav>
+        <div class="nav-small-container">
+            <ul class="nav-small-icons ">
+                <li>
+                    <a href=""><i class="fa-regular fa-snowflake  fa-2x small-icon"></i> <span>Weather</span></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-camera fa-2x small-icon"></i><span>Web-Camera</span></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-regular fa-calendar fa-2x small-icon"></i><span>Calendar</span></a>
+                </li>
+                <li>
+                    <a href=""> <i class="fa-solid fa-magnifying-glass fa-2x small-icon"></i><span>Search</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="clickedNav">
+            <div class="Region">
+                <a href="/Assets/region.html">
+                    <p>History</p>
+                </a>
+                <a href="/Assets/geography.html">
+                    <p>Geography</p>
+                </a>
+                <a href="/Assets/health.html">
+                    <p>Health</p>
+                </a>
+                <a href="">
+                    <p>Blogs</p>
+                </a>
+                <a href="">
+                    <p>Vlogs</p>
+                </a>
+                <a href="/Assets/photo-gallery.html">
+                    <p>Photo Gallery</p>
+                </a>
+            </div>
+            <div class="comeAndStay">
+
+                <a href="/Assets/come.html#fromTbilisiToGudauri">
+                    <p>From Tbilisi To Gudauri</p>
+                </a>
+                <a href="/Assets/come.html#taxisInGudauri">
+                    <p>Taxis in Gudauri</p>
+                </a>
+                <a href="/Assets/come.html#Transfer">
+                    <p>Transfer</p>
+                </a>
+                <a href="">
+                    <p>Tour offers aroud the area</p>
+                </a>
+            </div>
+            <div class="skiBoard">
+                <div class="skiBoard-left">
+                    <a href="">
+                        <p>Ski Passes - Full info</p>
+                    </a>
+                    <a href="">
+                        <p>Ski Rentals</p>
+                    </a>
+                    <a href="">
+                        <p>Ski Fitness</p>
+                    </a>
+                    <a href="">
+                        <p>Ski Equipment</p>
+                    </a>
+                    <a href="">
+                        <p>Private Ski Sessions</p>
+                    </a>
+                </div>
+                <div class="skiBoard-right">
+                    <h1>Ski Area Guide</h1>
+                    <a href="">
+                        <p>Ski slope's guide</p>
+                    </a>
+                    <a href="">
+                        <p>Ski lifts</p>
+                    </a>
+                </div>
+            </div>
+            <div class="localLifeServices">
+                <div class="local-left">
+                    <h1>Getting there & Getting around</h1>
+                    <a href=""><span>From Tbilisi To Gudauri</span></a>
+                    <a href=""><span>Taxis in Gudauri</span></a>
+                    <a href=""><span>Transfer</span></a>
+                    <a href=""><span>Tour offers aroud the area</span></a>
+                </div>
+                <div class="local-right">
+                    <span>Events</span>
+                    <span>Swimming & Wellness</span>
+                    <span>ATM - Cash Dispencers</span>
+                    <span>Shops</span>
+                    <span>Health</span>
+                    <span>Other activities</span>
+                </div>
+            </div>
+            <div class="close-icon">
+                <p onclick="closeNav()" class="js-close" href=""><i class="fa-solid fa-xmark fa-3x close "></i> </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="comeContainer">
+            <div class="comeAdContent">
+                <div class="comeAd1">
+                    <a href="">
+                        <img src="/Assets/Picture/ad-2.webp" alt="">
+                    </a>
+                </div>
+                <div class="comeAd2">
+                    <a href="">
+                        <img src="/Assets/Picture/ad-1.webp" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="comeMainContent">
+                <div class="gettingThere">
+                    <h1>Getting there & Getting around</h1>
+                    <span>120 kilometers from Tbilisi, there is an amazing mountain and ski resort - Gudauri. You may
+                        not believe it, but in such a short distance from sunny Tbilisi, you can find yourself directly
+                        in the alpine zone. The snow here lasts for 5 months and is an ideal place for skiers, lovers of
+                        extremes and active recreation.</span>
+                    <h3>How long does it take to get there?</h3>
+                    <ul class="timeToArrive">
+                        <li>From Tbilisi - 2:25 hrs</li>
+                        <li>From Batumi - 6:30 hrs</li>
+                        <li>From Kutaisi - 4:35 hrs</li>
+                    </ul>
+                </div>
+                <div class="comeShortCut">
+                    <h1>Jump to:</h1>
+                    <ul>
+                        <a href="/Assets/come.html#fromTbilisiToGudauri">
+                            <li>From Tbilisi To Gudauri</li>
+                        </a>
+                        <a href="/Assets/come.html#taxisInGudauri">
+                            <li>Taxis in Gudauri</li>
+                        </a>
+                        <a href="/Assets/come.html#Transfer">
+                            <li>Transfer</li>
+                        </a>
+                    </ul>
+                </div>
+
+
+
+            </div>
+            <div id="fromTbilisiToGudauri" class="tbilisiToGudauri">
+                <h1>From Tbilisi To Gudauri</h1>
+                <span>You can get to Gudauri from Tbilisi in just 2 hours. A large section of the road from Tbilisi to
+                    Gudauri is of international importance and is used by approximately 10 countries for permanent land
+                    transit. Therefore, even in the worst weather conditions, the road to Gudauri is open and is rarely
+                    closed.</span>
+                <br>
+                <br>
+                <span>If you drive north from Tbilisi, the Zhinvali Reservoir will impress you - blue, cloudy water in a
+                    big bowl of mountains. Its area is 11.5 sq. km, and the maximum depth is 75 m; In summer, this place
+                    attracts many vacationers.
+                </span>
+                <br>
+                <br>
+                <span>Then you will pass the small town of Fasanauri. Here you can take a break, go to some tavern and
+                    taste delicious khinkali.</span>
+                <br>
+                <br>
+                <span>The road continues till you reach the Serpentine - this is where the last section of the ascent
+                    road to the alpine zone begins. On the left, you can see a huge, invisible ridge, which gets smaller
+                    after every turn of the tortuous road, and in a few minutes, you will be able to see this ridge from
+                    above.</span>
+            </div>
+            <div id="taxisInGudauri" class="comeTaxi">
+                <h1>Taxis in Gudauri</h1>
+                <span>In Gudauri there is no public transport. If you plan to go outside of New Gudauri you will
+                    probably need to get a cab. Find your perfect Gudauri taxi services, shortlisted by our local
+                    experts.</span>
+                <div class="comeTaxiContent">
+                    <div class="comeTaxiCard">
+                        <div class="comeTaxiImg">
+                            <img src="/Assets/Picture/taxiPic.jfif" alt="">
+                        </div>
+                        <div class="comeTaxiInfo">
+                            <span>Mr. Dato - 599 555 555</span>
+                            <span>Sedan</span>
+                            <span>Max people: 8</span>
+                        </div>
+                    </div>
+                    <div class="comeTaxiCard">
+                        <div class="comeTaxiImg">
+                            <img src="/Assets/Picture/taxiPic.jfif" alt="">
+                        </div>
+                        <div class="comeTaxiInfo">
+                            <span>Mr. Dato - 599 555 555</span>
+                            <span>Sedan</span>
+                            <span>Max people: 8</span>
+                        </div>
+                    </div>
+                    <div class="comeTaxiCard">
+                        <div class="comeTaxiImg">
+                            <img src="/Assets/Picture/taxiPic.jfif" alt="">
+                        </div>
+                        <div class="comeTaxiInfo">
+                            <span>Mr. Dato - 599 555 555</span>
+                            <span>Sedan</span>
+                            <span>Max people: 8</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="Transfer" class="transfer">
+                <h1>Transfer</h1>
+                <span>If you are coming from abroad, the nearest airport to Gudauri is Tbilisi International Airport.
+                    From there the most comfortable transport can be a minivan. So find your perfect Tbilisi airport
+                    shuttle. Choose from recommended transfers and book directly on our website.</span>
+                <div class="transferContent">
+                    <div class="transferTaxiCard">
+                        <div class="transferTaxiImg">
+                            <img src="/Assets/Picture/taxiPic.jfif" alt="">
+                        </div>
+                        <div class="transferTaxiInfo">
+                            <span>Mr. Dato - 599 555 555</span>
+                            <span>Sedan</span>
+                            <span>Max people: 8</span>
+                        </div>
+                    </div>
+                    <div class="transferTaxiCard">
+                        <div class="transferTaxiImg">
+                            <img src="/Assets/Picture/taxiPic.jfif" alt="">
+                        </div>
+                        <div class="transferTaxiInfo">
+                            <span>Mr. Dato - 599 555 555</span>
+                            <span>Sedan</span>
+                            <span>Max people: 8</span>
+                        </div>
+                    </div>
+                    <div class="transferTaxiCard">
+                        <div class="transferTaxiImg">
+                            <img src="/Assets/Picture/taxiPic.jfif" alt="">
+                        </div>
+                        <div class="transferTaxiInfo">
+                            <span>Mr. Dato - 599 555 555</span>
+                            <span>Sedan</span>
+                            <span>Max people: 8</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src="/Assets/Js/clickNav.js"></script>
+</body>
+
+</html>

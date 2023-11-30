@@ -2,6 +2,9 @@
     font-family: "Proxima-nova";
     src: url(/Assets/Fonts/Proxima\ Nova\ Semibold.ttf) format('truetype');
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -25,5 +28,5 @@ a {
 
 ul,
 li {
-    all: unset;
+    list-style: none;
 }
