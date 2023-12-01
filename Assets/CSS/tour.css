@@ -1,0 +1,65 @@
+    .tourContainer {
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-right: 100px;
+    }
+
+    .tourContainer h1 {
+        color: #043974;
+        font-size: 60px;
+    }
+
+    .tourMainContent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tourCard {
+        position: relative;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 350px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+
+    }
+
+    .tourCard:hover {
+        box-shadow: 10px 10px 30px black;
+
+    }
+
+    .tourCard img {
+        width: 400px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .tourName {
+        opacity: 0;
+        position: absolute;
+        bottom: 50%;
+        top: 50%;
+        left: 80px;
+        right: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+
+    .tourCard:hover .tourName {
+        opacity: 100;
+
+    }
+
+    .tourName span {
+        font-size: 35px;
+        color: white;
+        padding: 5px;
+        font-weight: bold;
+        border-radius: 100px;
+
+        background-color: #04387467;
+    }
