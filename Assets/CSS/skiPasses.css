@@ -1,0 +1,179 @@
+.skiPassesContainer {
+    margin-top: 50px;
+}
+
+.skiPassesHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #043974;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.skiPassesHeader h1 {
+    font-size: 50px;
+}
+
+.skiPassesHeader span {
+    font-size: 25px;
+}
+
+.skiPassesQuestion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #043974;
+    margin: 0;
+}
+
+.adultContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.adultCurcle,
+.kidCurcle,
+.studentCurcle {
+    background-color: rgb(26, 96, 149);
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.kidCurcle {
+    background-color: rgb(71, 135, 184);
+}
+
+.studentCurcle {
+    background-color: rgb(111, 177, 230)
+}
+
+.adultPriceContainer {
+    position: relative;
+    display: none;
+    width: 50%;
+    background-color: rgb(26, 96, 149);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.adultPriceContainer h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+    width: 450px;
+    font-size: 60px;
+    height: auto;
+    border-bottom: 3px solid white;
+}
+
+.openAdultContent {
+    font-size: 30px;
+    width: 80%;
+    background-color: white;
+    color: #043974;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.skiPassesTransport {
+    margin-left: 100px;
+}
+
+.close-list {
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 38px;
+    right: 50px;
+}
+
+.kideElStyleOn {
+    background-color: rgb(71, 135, 184);
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+.kideElSpecialStyle {
+    background-color: rgb(71, 135, 184);
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 600px;
+}
+
+.studentStyleOn {
+    background-color: rgb(111, 177, 230);
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 600px;
+}
+
+.adultElStyleOn {
+    background-color: rgb(26, 96, 149);
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
