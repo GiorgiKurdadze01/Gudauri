@@ -1,0 +1,314 @@
+.openRentalContainer {
+    display: flex;
+    margin-left: 150px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rentalBookingContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(221, 240, 255);
+    padding: 50px;
+    width: 75vw;
+    border-radius: 20px;
+}
+
+.OpenRentalImg img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.OpenRentalImg {
+    margin-right: 40px;
+}
+
+.rentalShopName {
+    color: #043974;
+    font-size: 30px;
+}
+
+.rentalShopName h1 {
+    margin-bottom: 0 !important;
+}
+
+.bookingContent {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.bookingContent span {
+    font-size: 25px;
+    color: white;
+}
+
+.rentalBox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 15vw;
+}
+
+.rentalBox-header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rentalBox-content {
+    color: white;
+    padding: 10px;
+    display: none;
+    margin-bottom: 5px;
+}
+
+.arrow-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.fa {
+    color: #043974;
+}
+
+.openRentalContentInputs {
+    background-color: #043974;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 150px;
+    padding-left: 20px;
+    position: relative;
+    width: 60vw;
+}
+
+.openRental-button {
+    position: absolute;
+    right: 41px;
+    bottom: 8px;
+}
+
+.openRental-button button {
+    padding: 10px;
+    width: 200px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(111, 177, 230);
+    color: white;
+    font-size: 20px;
+}
+
+.rentalAdultBoxContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.rentalLeftContent {
+    background-color: rgb(182, 208, 237);
+    padding: 50px;
+    border-radius: 20px;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.rentalLeftContent input {
+    width: 10vw;
+}
+
+.rentalAdultBoxHeader {
+    color: #043974;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.rentalFirstLine {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 98.5%;
+}
+
+.firstName {
+    margin-right: 20px;
+}
+
+.rentalFirstLine input {
+    width: 30vw !important;
+}
+
+.firstName,
+.lastName {
+    border: 1px solid #043974;
+    padding: 10px;
+    color: #043974;
+    font-size: 18.8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.rentalSecondLine {
+    display: flex;
+    flex-direction: row;
+}
+
+.weight,
+.height,
+.shoeSize {
+    width: 160px;
+    margin-right: 10px;
+}
+
+.weight,
+.shoeSize,
+.height {
+    border: 1px solid #043974;
+    padding: 10px;
+    color: #043974;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.firstName::placeholder,
+.lastName::placeholder,
+.weight::placeholder,
+.height::placeholder,
+.shoeSize::placeholder {
+    color: #043974;
+    font-weight: bold;
+}
+
+.rentalLastLine {
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #043974;
+    font-weight: bold;
+}
+
+.rentalLastLine span {
+    font-size: 20px;
+}
+
+.equipmentContent,
+.equipmentContent-2 {
+    background-color: white;
+    border: 1px solid white;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #043974;
+    font-size: 20px;
+
+}
+
+.equipmentContent span,
+.equipmentContent-2 span {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.rentalButton {
+    margin-top: 20px;
+}
+
+.rentalButton button {
+    cursor: pointer;
+    width: 13vw;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(111, 177, 230);
+}
+
+.rentalRightContent {
+    background-color: rgb(182, 208, 237);
+    padding: 50px;
+    border-radius: 20px;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.rentalRightContent input {
+    width: 10vw;
+}
+
+.rentalBasketHeadLine {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #043974;
+    margin-bottom: 40px;
+}
+
+.rentalBasketHeadLine span {
+    border-bottom: 4px solid #043974;
+}
+
+.rentalBasketContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #043974;
+}
+
+.firstBasket,
+.secondBasket,
+.lastBasket {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(221, 240, 255);
+    padding: 40px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.firstBasketContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    font-size: 30px;
+    color: #043974;
+    margin-bottom: 15px;
+}
+
+.rentalPrice {
+    margin-top: 20px;
+    color: #043974;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    width: 85vw;
+    font-size: 40px;
+}
+
+.price {
+    margin-left: 20px;
+    font-weight: bold;
+}

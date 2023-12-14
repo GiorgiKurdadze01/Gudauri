@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/header.css">
+    <link rel="stylesheet" href="/Assets/CSS/navClicked.css">
+    <link rel="stylesheet" href="/Assets/CSS/general.css">
+    <link rel="stylesheet" href="/Assets/CSS/openRental.css">
+    <script src="https://kit.fontawesome.com/b6633c1c54.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar-for-all">
+            <a class="site-main-logo" href="/index.html"><img class="site-main-logo" src="/Assets/Icons/G-Icon.png"
+                    alt=""></a>
+            <p onclick="openRegion()">THE REGION</p>
+            <p onclick="openComeAndStay()">COME</p>
+            <p onclick="openskiBoard()">SKI - BOARD</p>
+            <p onclick="openlocalLife()">LOCAL LIFE & SERVICES</p>
+        </nav>
+        <div class="nav-small-container">
+            <ul class="nav-small-icons ">
+                <li>
+                    <a href=""><i class="fa-regular fa-snowflake  fa-2x small-icon"></i> <span>Weather</span></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-solid fa-camera fa-2x small-icon"></i><span>Web-Camera</span></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa-regular fa-calendar fa-2x small-icon"></i><span>Calendar</span></a>
+                </li>
+                <li>
+                    <a href=""> <i class="fa-solid fa-magnifying-glass fa-2x small-icon"></i><span>Search</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="clickedNav">
+            <div class="Region">
+                <a href="/Assets/region.html">
+                    <p>History</p>
+                </a>
+                <a href="/Assets/geography.html">
+                    <p>Geography</p>
+                </a>
+                <a href="/Assets/geography.html">
+                    <p>Health</p>
+                </a>
+                <a href="">
+                    <p>Blogs</p>
+                </a>
+                <a href="">
+                    <p>Vlogs</p>
+                </a>
+                <a href="/Assets/photo-gallery.html">
+                    <p>Photo Gallery</p>
+                </a>
+            </div>
+            <div class="comeAndStay">
+                <a href="/Assets/come.html#fromTbilisiToGudauri">
+                    <p>From Tbilisi To Gudauri</p>
+                </a>
+                <a href="/Assets/come.html#taxisInGudauri">
+                    <p>Taxis in Gudauri</p>
+                </a>
+                <a href="/Assets/come.html#Transfer">
+                    <p>Transfer</p>
+                </a>
+                <a href="/Assets/tour.html">
+                    <p>Tour offers aroud the area</p>
+                </a>
+            </div>
+            <div class="skiBoard">
+                <div class="skiBoard-left">
+                    <a href="/Assets/ski-passes.html">
+                        <p>Ski Passes - Full info</p>
+                    </a>
+                    <a href="/Assets/rentals.html">
+                        <p>Ski Rentals</p>
+                    </a>
+                    <a href="">
+                        <p>Ski Fitness</p>
+                    </a>
+                    <a href="">
+                        <p>Ski Equipment</p>
+                    </a>
+                    <a href="">
+                        <p>Private Ski Sessions</p>
+                    </a>
+                </div>
+                <div class="skiBoard-right">
+                    <h1>Ski Area Guide</h1>
+                    <a href="">
+                        <p>Ski slope's guide</p>
+                    </a>
+                    <a href="">
+                        <p>Ski lifts</p>
+                    </a>
+                </div>
+            </div>
+            <div class="localLifeServices">
+                <div class="local-left">
+                    <h1>Getting there & Getting around</h1>
+                    <a href=""><span>From Tbilisi To Gudauri</span></a>
+                    <a href=""><span>Taxis in Gudauri</span></a>
+                    <a href=""><span>Transfer</span></a>
+                    <a href=""><span>Tour offers aroud the area</span></a>
+                </div>
+                <div class="local-right">
+                    <span>Events</span>
+                    <span>Swimming & Wellness</span>
+                    <span>ATM - Cash Dispencers</span>
+                    <span>Shops</span>
+                    <span>Health</span>
+                    <span>Other activities</span>
+                </div>
+            </div>
+            <div class="close-icon">
+                <p onclick="closeNav()" class="js-close" href=""><i class="fa-solid fa-xmark fa-3x close "></i> </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="openRentalContainer">
+            <div class="rentalShopName">
+                <h1 id="js-rentalShopNameRan">ERROR 404</h1>
+            </div>
+            <div class="rentalBookingContainer">
+                <div class="OpenRentalImg">
+                    <img id="js-rentalShopImgRan" src="" alt="">
+                </div>
+                <div class="openRentalContentInputs">
+                    <div class="bookingContent">
+                        <div>
+                            <span>First rental day</span>
+                        </div>
+                        <div class="rentalBox">
+                            <div class="rentalBox-header">
+                                <i class="fa-solid fa-calendar-days fa-2x fa "></i>
+                                <button class="arrow-btn js-arrow-btn-1"><i
+                                        class="fa-solid fa-chevron-down fa-2x fa"></i></button>
+                            </div>
+                            <div class="rentalBox-content js-rentalBox-content-1">
+                                <p>Content goes here...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bookingContent">
+                        <div>
+                            <span>Return date</span>
+                        </div>
+                        <div class="rentalBox">
+                            <div class="rentalBox-header">
+                                <i class="fa-solid fa-calendar-days fa-2x fa "></i>
+                                <button class="arrow-btn js-arrow-btn-2"><i
+                                        class="fa-solid fa-chevron-down fa-2x fa"></i></button>
+                            </div>
+                            <div class="rentalBox-content js-rentalBox-content-2">
+                                <p>Content goes here...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bookingContent">
+                        <div>
+                            <span>Adults ( 16+)</span>
+                        </div>
+                        <div class="rentalBox">
+                            <div class="rentalBox-header">
+                                <i class="fa-solid fa-user fa-2x fa "></i>
+                                <button class="arrow-btn js-arrow-btn-3"><i
+                                        class="fa-solid fa-chevron-down fa-2x fa"></i></button>
+                            </div>
+                            <div class="rentalBox-content js-rentalBox-content-3">
+                                <p>Content goes here...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bookingContent">
+                        <div>
+                            <span>Kids ( 16+)</span>
+                        </div>
+                        <div class="rentalBox">
+                            <div class="rentalBox-header">
+                                <i class="fa-solid fa-child-reaching fa-2x fa "></i>
+                                <button class="arrow-btn js-arrow-btn-4"><i
+                                        class="fa-solid fa-chevron-down fa-2x fa"></i></button>
+                            </div>
+                            <div class="rentalBox-content js-rentalBox-content-4">
+                                <p>Content goes here...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="openRental-button">
+                        <button>Check availability</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rentalAdultBoxContainer">
+            <div class="rentalLeftContent">
+                <div class="rentalAdultBoxHeader">
+                    <h1>Adult 1</h1>
+                </div>
+                <div class="rentalFirstLine">
+                    <input class="firstName" type="text" placeholder="First Name">
+                    <input class="lastName" type="text" placeholder="Last name">
+                </div>
+                <div class="rentalSecondLine">
+                    <input class="weight" type="text" placeholder="Weight (kg)">
+                    <input class="height" type="text" placeholder="Height (cm)">
+                    <input class="shoeSize" type="text" placeholder="Shoe size(EU)">
+                </div>
+                <div class="rentalLastLine">
+                    <span>Choose equipment 1</span>
+                    <button class="arrow-btn js-arrow-btn-5"> <i class="fa-solid fa-chevron-down fa-2x fa"></i></button>
+                </div>
+                <div class="equipmentContent">
+                    <span>Skis</span>
+                    <span>Ski boots</span>
+                    <span>Snowboard</span>
+                    <span>Snowboard boots</span>
+                </div>
+                <div class="rentalButton">
+                    <button>Add equipment</button>
+                </div>
+            </div>
+            <div class="rentalRightContent">
+                <div class="rentalAdultBoxHeader">
+                    <h1>Adult 2</h1>
+                </div>
+                <div class="rentalFirstLine">
+                    <input class="firstName" type="text" placeholder="First Name">
+                    <input class="lastName" type="text" placeholder="Last name">
+                </div>
+                <div class="rentalSecondLine">
+                    <input class="weight" type="text" placeholder="Weight (kg)">
+                    <input class="height" type="text" placeholder="Height (cm)">
+                    <input class="shoeSize" type="text" placeholder="Shoe size(EU)">
+                </div>
+                <div class="rentalLastLine">
+                    <span>Choose equipment 1</span>
+                    <button class="arrow-btn js-arrow-btn-6"> <i class="fa-solid fa-chevron-down fa-2x fa"></i></button>
+                </div>
+                <div class="equipmentContent-2">
+                    <span>Skis</span>
+                    <span>Ski boots</span>
+                    <span>Snowboard</span>
+                    <span>Snowboard boots</span>
+                </div>
+                <div class="rentalButton">
+                    <button>Add equipment</button>
+                </div>
+            </div>
+        </div>
+        <div class="rentalBasketHeadLine">
+            <span>Shopping basket</span>
+        </div>
+        <div class="rentalBasketContainer">
+            <div class="firstBasket">
+                <h1>Adult</h1>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski poles</span>
+                    <span>10 Gel</span>
+                </div>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski Goggles</span>
+                    <span>10 Gel</span>
+                </div>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski</span>
+                    <span>10 Gel</span>
+                </div>
+            </div>
+            <div class="secondBasket">
+                <h1>Adult2</h1>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski poles</span>
+                    <span>10 Gel</span>
+                </div>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski Goggles</span>
+                    <span>10 Gel</span>
+                </div>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski</span>
+                    <span>10 Gel</span>
+                </div>
+            </div>
+            <div class="lastBasket">
+                <h1>Adult3</h1>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski poles</span>
+                    <span>10 Gel</span>
+                </div>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski Goggles</span>
+                    <span>10 Gel</span>
+                </div>
+                <div class="firstBasketContent">
+                    <i class="fa-solid fa-snowflake fa-2x fa"></i>
+                    <span>Ski</span>
+                    <span>10 Gel</span>
+                </div>
+            </div>
+        </div>
+        <div class="rentalPrice">
+            <span>TOTAL :</span>
+            <span class="price">90 GEL</span>
+        </div>
+    </main>
+
+
+    <script src="/Assets/Js/loadPhoto.js"></script>
+    <script src="/Assets/Js/clickNav.js"></script>
+    <script src="/Assets/Js/openRentals.js"></script>
+</body>
+
+</html>

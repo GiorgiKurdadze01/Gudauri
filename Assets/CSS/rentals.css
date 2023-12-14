@@ -1,0 +1,52 @@
+.rentalHeadLine {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #043974;
+
+}
+
+.rentalHeadLine h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.rentalHeadLine h3 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.rentalCardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rentalCard {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    transition: all 0.3s;
+}
+
+.rentalCard:hover {
+    box-shadow: 10px 10px 40px black;
+}
+
+.rentalCard img {
+    width: 30vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+}
+
+.rentalCard span {
+    font-size: 30px;
+    color: #043974;
+}

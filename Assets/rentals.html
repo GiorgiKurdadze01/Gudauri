@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/Assets/CSS/header.css">
     <link rel="stylesheet" href="/Assets/CSS/navClicked.css">
     <link rel="stylesheet" href="/Assets/CSS/general.css">
+    <link rel="stylesheet" href="/Assets/CSS/rentals.css">
     <script src="https://kit.fontawesome.com/b6633c1c54.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -78,7 +79,7 @@
                     <a href="/Assets/ski-passes.html">
                         <p>Ski Passes - Full info</p>
                     </a>
-                    <a href="">
+                    <a href="/Assets/rentals.html">
                         <p>Ski Rentals</p>
                     </a>
                     <a href="">
@@ -130,12 +131,36 @@
                 <h3>There are several shops offering ski and snowboard hire in Verbier. </h3>
             </div>
             <div class="rentalCardContainer">
-                <div class="rentalCard">
+                <div class="rentalCard" onclick="getSrcAndName(this)">
                     <div>
-                        <img src="/Assets/Picture/rentalCard-1.jfif" alt="">
+                        <img id="js-rental-img-1" src="/Assets/Picture/rentalCard-1.jfif" alt="">
                     </div>
                     <div>
                         <span>Extreme/ Block2</span>
+                    </div>
+                </div>
+                <div class="rentalCard">
+                    <div>
+                        <img id="js-rental-img-2" src="/Assets/Picture/rentalCard-2.jfif" alt="">
+                    </div>
+                    <div>
+                        <span>Gudauri / Block 3</span>
+                    </div>
+                </div>
+                <div class="rentalCard">
+                    <div>
+                        <img id="js-rental-img-3" src="/Assets/Picture/rentalCard-3.webp" alt="">
+                    </div>
+                    <div>
+                        <span>Gudauri rental / Block 2</span>
+                    </div>
+                </div>
+                <div class="rentalCard">
+                    <div>
+                        <img id="js-rental-img-4" src="/Assets/Picture/rentalCard-4.webp" alt="">
+                    </div>
+                    <div>
+                        <span>Tkhilamurebi / Block 3</span>
                     </div>
                 </div>
             </div>
@@ -144,7 +169,7 @@
 
 
 
-
+    <script src="/Assets/Js/rentalPhotoSource.js"></script>
     <script src="/Assets/Js/clickNav.js"></script>
 </body>
 
