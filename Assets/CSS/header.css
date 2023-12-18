@@ -91,9 +91,9 @@
 
 
 .nav-small-icons li a {
-    background-color: blue;
+    background-color: #043974;
     margin-top: 20px;
-    border: solid 1px blue;
+    border: solid 1px #043974;
     padding: 15px;
     width: 30px;
     height: 30px;
@@ -131,7 +131,7 @@
 }
 
 .nav-small-icons a span {
-    background-color: blue;
+    background-color: #043974;
     color: white;
 }
 

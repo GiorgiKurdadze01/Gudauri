@@ -10,27 +10,27 @@
     }
 
     .tourMainContent {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 40vw 40vw;
     }
 
     .tourCard {
         position: relative;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         border-radius: 5px;
         height: 350px;
         margin-right: 100px;
         margin-bottom: 50px;
-
+        transition: all 0.5s;
     }
 
     .tourCard:hover {
-        box-shadow: 10px 10px 30px black;
+        box-shadow: 10px 10px 15px black;
 
     }
 
     .tourCard img {
-        width: 400px;
+        width: 100%;
         height: 100%;
         object-fit: cover;
     }
@@ -46,7 +46,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        transition: all 0.5s ease;
+        transition: all 0.5s;
     }
 
     .tourCard:hover .tourName {
